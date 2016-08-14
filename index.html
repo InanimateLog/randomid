@@ -54,9 +54,8 @@
 	<h1>Your IDs are:</h1>
 </div>
 <div class="cards"><img id="corp" class="card card-initial" src="localhost/nothing" /><img id="runner" class="card card-initial" src="localhost/nothing" /></div>
-
-<!--
-var runnerCards = ["https://netrunnerdb.com/card_image/00006.png",
+<script>
+var runnerCards = [
 "https://netrunnerdb.com/card_image/01001.png",
 "https://netrunnerdb.com/card_image/01017.png",
 "https://netrunnerdb.com/card_image/01033.png",
@@ -143,17 +142,13 @@ function reveal() {
 	$("#runner").attr("class", "card card-initial-2")
 	$("#corp").attr("class", "card card-initial-2")
 }
-
-setTimeout(reveal, 200)
+setTimeout(reveal, 200);
 
 function reveal2() {
 	$("#runner").attr("class", "card")
 	$("#corp").attr("class", "card")
 }
-
-setTimeout(reveal2, 1000)
-
--->
-<script src="script.js"></script>
+setTimeout(reveal2, 1000);
+</script>
 </body>
 </html>
